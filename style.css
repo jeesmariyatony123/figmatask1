@@ -406,7 +406,30 @@ margin-top: -55px;}
 
 }
 /* eventsection */
+#eventsection .container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
 #eventsection .eventtext .heading{
     font-size: 40px;
     padding-left: 100px;
+}
+#eventsection .row{
+    background-color: #F2C94C;
+    border-radius: 20px;
+    width: 628px;
+    height: 185px;
+
+}
+#eventsection .col{
+    padding: 40px;
+}
+.content{
+padding-left: 20px;
+}
+.arrow{
+    padding: 40px;
 }
