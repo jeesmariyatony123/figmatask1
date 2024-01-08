@@ -62,7 +62,8 @@ header .container {
 .btn-light:hover {
     background-color: #c89706;
 }
-.btn-transparent:hover{
+
+.btn-transparent:hover {
     color: black;
     background-color: #c89706;
 
@@ -342,22 +343,26 @@ header .line {
 
 /* piechart */
 
-#piechart{
+#piechart {
     background-color: black;
     width: 100%;
     height: 552px;
 }
-#piechart .row{
+
+#piechart .row {
     padding-top: 150px;
 }
-.pietext h1{
+
+.pietext h1 {
     padding-bottom: 20px;
 }
-.pietext p{
+
+.pietext p {
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-.pietext ul{
+
+.pietext ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -366,70 +371,182 @@ header .line {
     /* background-color: #c89706; */
     margin-left: -30px;
 }
-.pietext li{
-    margin:0 30px 10px 0;
+
+.pietext li {
+    margin: 0 30px 10px 0;
 }
 
-.chart-container{
+.chart-container {
     width: 375px;
     /* background-color: #c89706; */
 }
-.programming-stats{
-padding-left: 160px;
-margin-top: -55px;}
+
+.programming-stats {
+    padding-left: 160px;
+    margin-top: -55px;
+}
 
 /* cta */
-#cta .ctaimg{
+#cta .ctaimg {
     background-image: url(./images/unsplash_cVEOh_JJmEE\ \(1\).png);
     width: 1280px;
     height: 384px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 100px ;
+    padding-top: 100px;
     text-align: center;
     margin: 110px 110px 60px 110px;
     color: white;
 }
-#cta .btncolor{
+
+#cta .btncolor {
     background-color: #F2C94C;
     outline: none;
 }
-#cta .btncolor:hover{
+
+#cta .btncolor:hover {
     background-color: white;
     color: black;
 }
-#cta .btndonate{
+
+#cta .btndonate {
     background-color: white;
 }
-#cta .btndonate:hover{
+
+#cta .btndonate:hover {
     background-color: #F2C94C;
 
 }
+
 /* eventsection */
-#eventsection .container{
+#eventsection .container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 45px;
 }
-#eventsection .eventtext .heading{
+
+#eventsection .eventtext .heading {
     font-size: 40px;
     padding-left: 100px;
 }
-#eventsection .row{
+
+#eventsection .row {
     background-color: #F2C94C;
     border-radius: 20px;
     width: 628px;
     height: 185px;
+}
 
-}
-#eventsection .col{
+#eventsection .col {
     padding: 40px;
 }
-.content{
-padding-left: 20px;
+
+.content {
+    padding-left: 20px;
 }
-.arrow{
+
+.arrow {
     padding: 40px;
+}
+
+/* footer */
+footer {
+    margin-top: 25px;
+}
+
+
+.foot-panel2 {
+    background-color: #0B0706;
+    color: white;
+    height: 402px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.foot-panel2 ul {
+    margin-top: 40px;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    text-decoration: none;
+    color: #919294;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel2 ul a:hover {
+    text-decoration: underline;
+}
+
+.subscribe h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+label {
+    position: relative;
+}
+
+.subscribe input[type="text"] {
+    border: none;
+    width: 460px;
+    height: 50px;
+    padding: 0 16px;
+    border: 1px solid #919294;
+}
+
+.subscribe button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    color: black;
+    padding: 0 16px;
+    /* letter-spacing: 1.5px; */
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #F2C94C;
+}
+
+/*------------- section3------------------- */
+#section3 {
+    padding-top: 50px;
+}
+
+#section3 .aboutimg {
+    width: 476px;
+    height: 384px;
+    padding-right: 40px;
+}
+/* special needs */
+#specialneeds{
+    background-color: #FCEDC6;
+    height: 570px;
+    margin-top: 55px;
+}
+#specialneeds h1{
+    padding: 90px 0 50px 110px;
+}
+#specialneeds ul {
+    display: flex;
+    /* row-gap: 20px; */
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+    /* background-color: greenyellow; */
+    
+}
+#specialneeds li{
+    list-style: none;
 }
