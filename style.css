@@ -25,6 +25,10 @@ nav .btn {
     width: 115px;
 }
 
+nav .btn:hover {
+    background-color: #F2C94C;
+}
+
 .bg-image {
     background-image: url(./images/BG\ Image.png);
     width: 100%;
@@ -88,7 +92,7 @@ header .line {
 }
 
 #aboutsection .coltext {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #aboutsection .line2 span {
@@ -106,7 +110,7 @@ header .line {
     font-size: 16px;
     color: black;
     width: 115px;
-    margin: 20px 0px 0px 75px;
+    margin: 20px 0px 50px 75px;
 }
 
 .sectiontext button:hover {
@@ -517,7 +521,7 @@ label {
     background-color: #F2C94C;
 }
 
-/*------------- section3------------------- */
+/*------------- section3 what we do------------------- */
 #section3 {
     padding-top: 50px;
 }
@@ -527,26 +531,94 @@ label {
     height: 384px;
     padding-right: 40px;
 }
+
 /* special needs */
-#specialneeds{
+#specialneeds {
     background-color: #FCEDC6;
     height: 570px;
     margin-top: 55px;
 }
-#specialneeds h1{
+
+#specialneeds h1 {
     padding: 90px 0 50px 110px;
 }
+
 #specialneeds ul {
     display: flex;
     /* row-gap: 20px; */
-    justify-content:start;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 40px;
     row-gap: 20px;
     /* background-color: greenyellow; */
-    
+
 }
-#specialneeds li{
+
+#specialneeds li {
     list-style: none;
+}
+
+
+/* ------------------------section4 media---------------------------- */
+
+#section4 {
+    padding-top: 30px;
+    background-color: #FCEDC6;
+    height: 700px;
+    border-top: 0.2px solid rgb(212, 209, 209);
+
+}
+
+#section4 button:hover {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+#section4 .coltext {
+    padding-top: 60px;
+}
+
+#section4 .cardcontainer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#section4 .card {
+    border: none;
+}
+
+#section4 .card .cardrow {
+    padding: 10px;
+}
+
+
+/*------------------ section6 donation ------------------------*/
+
+#section6about {
+    padding-top: 70px;
+    background-color: #FCEDC6;
+    height: 550px;
+    border-top: 0.2px solid rgb(212, 209, 209);
+}
+#section6about .coltext{
+padding-top: 40px;
+}
+#section6about .colimage {
+    height: 384px;
+    width: 480px;
+}
+
+#section6about .btn:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+#contribution{
+    padding: 60px 0;
+
+}
+#using{
+    padding: 70px 0 0 0;
 }
