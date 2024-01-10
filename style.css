@@ -888,3 +888,69 @@ label {
     padding: 70px 80px;
     list-style: none;
 }
+
+
+/* -----------------events------------- */
+
+#events .eventshead{
+    background-color: #FCEDC6;
+    height: 400px;
+    padding: 80px 100px 70px 25vw;
+    border: 1px solid rgb(201, 199, 199);
+    border-left: none;
+    border-bottom: none;
+    border-right:none ;
+}
+#events .eventshead h1{
+    font-size: 56px;
+}
+#events .eventshead .container{
+    padding-top: 40px;
+}
+/* #events .eventshead .container .col{
+    column-gap:2px;
+} */
+.loc{
+    display: flex;
+}
+
+#eventpabout {
+    padding: 70px 23vw 30px 25vw;
+}
+/* -------------- */
+
+#events .eventsection .container {
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* padding-top: 40px;
+    padding-bottom: 45px; */
+    padding: 70px 23vw 0px 19vw;
+
+}
+
+.eventsection .eventtext .heading {
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+.eventsection .row {
+    background-color: #F2C94C;
+    border-radius: 20px;
+    width: 768px;
+    height: 185px;
+
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.eventsection .col {
+    padding: 40px;
+}
+
+.content {
+    padding-left: 20px;
+}
+#events .heading{
+    padding: 20px 23vw 0px 25vw;
+}
