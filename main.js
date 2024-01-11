@@ -10,7 +10,7 @@ new Chart(myChart, {
         labels: chartData.labels,
         datasets: [
             {
-                label: "language",
+                label: "Percentage",
                 data: chartData.data,
                 backgroundColor:  [
                     '#BEF3C0',
