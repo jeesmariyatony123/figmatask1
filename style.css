@@ -521,6 +521,84 @@ label {
     background-color: #F2C94C;
 }
 
+/* -------------section2 about--------------------- */
+
+#aboutp .aboutsection {
+    padding: 50px 0px 100px 20px;
+    height: 550px;
+}
+
+#aboutp .aboutsection .colcontent {
+    padding: 20px 90px 50px 0px;
+
+}
+
+#aboutp .borderimage {
+    padding-left: 120px;
+    height: 448px;
+    width: 1300px;
+    margin-top: -360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#aboutp .mission {
+    background-color: #FCEDC6;
+    padding-top: 150px;
+    padding-left: 40px;
+}
+
+#aboutp .mission .line2 {
+    padding-top: 90px;
+}
+
+#aboutp .mission p {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+#aboutp .mission .playbtn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    width: 40px;
+    height: 40px;
+}
+
+#aboutp .award {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#aboutp .journey {
+    background-color: #F2C94C;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.journeytext {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 110px;
+}
+
+.achieve {
+    margin-right: 130px;
+}
+
+.team {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 /*------------- section3 what we do------------------- */
 #section3 {
     padding-top: 50px;
@@ -892,31 +970,35 @@ label {
 
 /* -----------------events------------- */
 
-#events .eventshead{
+#events .eventshead {
     background-color: #FCEDC6;
     height: 400px;
     padding: 80px 100px 70px 25vw;
     border: 1px solid rgb(201, 199, 199);
     border-left: none;
     border-bottom: none;
-    border-right:none ;
+    border-right: none;
 }
-#events .eventshead h1{
+
+#events .eventshead h1 {
     font-size: 56px;
 }
-#events .eventshead .container{
+
+#events .eventshead .container {
     padding-top: 40px;
 }
+
 /* #events .eventshead .container .col{
     column-gap:2px;
 } */
-.loc{
+.loc {
     display: flex;
 }
 
 #eventpabout {
     padding: 70px 23vw 30px 25vw;
 }
+
 /* -------------- */
 
 #events .eventsection .container {
@@ -951,6 +1033,31 @@ label {
 .content {
     padding-left: 20px;
 }
-#events .heading{
+
+#events .heading {
     padding: 20px 23vw 0px 25vw;
+}
+
+
+/* back to top */
+
+
+.top {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    padding-left: 14px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    color: #000;
+    background: #F2C94C;
+    border-radius: 50px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 40px;
+}
+
+.totoparrow {
+    float: right;
+    font-size: 30px;
 }

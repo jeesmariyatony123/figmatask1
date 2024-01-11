@@ -68,7 +68,7 @@
     <section>
         <div class="container text-start ">
             <div class="row sectiontext gx-5">
-                <div class="line2"><span><img src="./images/Line (1).png" alt="no image"></span> OUR PROJECT
+                <div class="line2" style="font-weight: 600; font-size: 16px; letter-spacing: 1.6px;"><span><img src="./images/Line (1).png" alt="no image"></span> OUR PROJECT
                 </div>
                 <div class="projectpara">
                     <h1 class="fw-bold">Mission Smile 1k: Outdoor <br>charity outreach</h1>
@@ -167,7 +167,7 @@
         <div class="container text-start ">
             <div class="row projectext gx-5">
                 <div class="col coltext">
-                    <div class="line2 pb-3"><span><img src="./images/Line (1).png" alt="no image"></span> MORE PROJECTS
+                    <div class="line2 pb-3" style="font-weight: 600; font-size: 16px; letter-spacing: 1.6px;"><span><img src="./images/Line (1).png" alt="no image"></span> MORE PROJECTS
                     </div>
                 </div>
             </div>
@@ -210,9 +210,53 @@
         <div class="ctaimg">
             <h1>You can contribute to provide a place <br>for children with special needs!</h1>
             <br>
-            <button class="btn btn-light btncolor">
-                <div>Join as a volunteer</div>
+            <!-- Button trigger modal -->
+            <button type="button" style="background-color: #F2C94C;"
+                class="btn btn-light  btn-primary text-dark btncolor" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Join as a volunteer
             </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-dark " style="font-size: 40px;" id="exampleModalLabel">Join as a
+                                volunteer</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row pt-4">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name"
+                                        aria-label="First Name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last Name"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class=" mb-3 ">
+                                <label for="exampleFormControlInput1" class="form-label">Email Id</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email Id">
+                            </div>
+                            <div class=" mb-3 ">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" placeholder="Type your Message"
+                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-warning">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button class="btn btn-light btndonate">
                 <div><a style="text-decoration: none; color: black;" href="./donation.html">Donate</a></div>
             </button>
@@ -260,12 +304,24 @@
                 </label>
             </div>
         </div>
+        <div class="totoparrow">
+            <a href="#" class="top"><i class=" fa-solid fa-arrow-up"></i></a>
+            
+          </div>
     </footer>
 
 
     <!-- chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./main.js"></script>
+
+
+    
+    <!-- bootstrap js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
